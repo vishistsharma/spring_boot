@@ -1,0 +1,5 @@
+package com.vishist.location.service;
+
+public interface LocationService {
+
+}

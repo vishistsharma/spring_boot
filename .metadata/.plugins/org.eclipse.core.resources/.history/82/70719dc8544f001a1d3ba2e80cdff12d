@@ -1,0 +1,11 @@
+package com.vishist.student.dal.entities;
+
+public class Student {
+
+	private Long id;
+	private String name;
+	private String course;
+	private Float fees;
+	
+	
+}

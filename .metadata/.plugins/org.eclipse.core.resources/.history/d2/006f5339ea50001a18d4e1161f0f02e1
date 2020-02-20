@@ -1,0 +1,5 @@
+package com.vishist.location.controllers;
+
+public class LocationController {
+
+}

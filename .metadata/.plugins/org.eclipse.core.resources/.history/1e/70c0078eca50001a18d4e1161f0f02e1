@@ -1,0 +1,5 @@
+package com.vishist.location.entities;
+
+public class Location {
+
+}

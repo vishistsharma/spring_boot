@@ -1,0 +1,25 @@
+package com.vishist.customer.dal;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.vishist.customer.dal.entities.Customer;
+import com.vishist.customer.dal.repos.CustomerRepository;
+
+@SpringBootTest
+class CustomerdalApplicationTests {
+
+	@Autowired
+	private CustomerRepository customerRepository;
+	
+	@Test
+	public void testCreateCustomer() {
+		Customer customer = new Customer();
+		customer.setName("Customer elite");
+		customer.setEmail("someemail@yahoo.com");
+		
+		customerRepository.save(customer);
+	}
+
+}

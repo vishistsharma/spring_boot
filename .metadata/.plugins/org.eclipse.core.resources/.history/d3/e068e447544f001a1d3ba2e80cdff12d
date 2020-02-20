@@ -1,0 +1,5 @@
+package com.vishist.student.dal.entities;
+
+public class Student {
+
+}
